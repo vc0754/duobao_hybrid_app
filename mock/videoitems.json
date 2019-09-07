@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "春季配饰百搭小技巧",
+        "excerpt": "每个人的购物习惯不尽相同，因而在购置单品的时候常常会踌躇，有人觉得单品很好搭也很耐用。",
+        "thumbnail": "/static/images/img-2.jpg",
+        "user": {
+            "name": "寻找超强BUYER"
+        }
+    },
+    {
+        "id": 2,
+        "title": "秋季配饰百搭小技巧",
+        "excerpt": "每个人的购物习惯不尽相同，因而在购置单品的时候常常会踌躇，有人觉得单品很好搭也很耐用。",
+        "thumbnail": "/static/images/img-2.jpg",
+        "user": {
+            "name": "寻找超强BUYER"
+        }
+    }
+]

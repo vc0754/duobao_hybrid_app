@@ -25,7 +25,7 @@
                     <div class="account">
                         <div class="thumb">
                             <router-link to="/my/edit">
-                                <img :src="baseURL + user.thumbnail">
+                                <img :src="user.thumbnail">
                             </router-link>
                         </div>
                         <div class="info">

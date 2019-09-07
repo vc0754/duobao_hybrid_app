@@ -5,7 +5,7 @@
         <li v-for="(item, index) in items" :key="index">
             <div class="thumb">
                 <router-link :to="'/article/' + item.id">
-                    <img :src="baseURL + item.thumbnail" alt="" />
+                    <img :src="item.thumbnail" alt="" />
                 </router-link>
             </div>
             <div class="info">

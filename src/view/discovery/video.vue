@@ -4,7 +4,7 @@
     <ul class="vc-guid-container">
         <li v-for="(item, i) in items" :key="i">
             <div class="thumb video-thumb">
-                <img :src="baseURL + item.thumbnail" alt="">
+                <img :src="item.thumbnail" alt="">
             </div>
             <div class="info">
                 <h3>{{ item.title }}</h3>

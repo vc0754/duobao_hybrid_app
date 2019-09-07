@@ -4,7 +4,7 @@
         <div class="author">
             <div class="thumb">
                 <router-link to="/app/my">
-                    <img :src="baseURL + item.user.avatar" alt="">
+                    <img :src="item.user.avatar" alt="">
                 </router-link>
             </div>
             <div class="info">

@@ -3,7 +3,7 @@
     <li v-for="(item, i) in items" :key="i">
         <div class="thumb">
             <router-link :to="'/article/tag/' + item.id">
-                <img :src="baseURL + item.thumbnail" alt="" />
+                <img :src="item.thumbnail" alt="" />
             </router-link>
         </div>
         <div class="info">

@@ -23,7 +23,7 @@
                     <div class="article-header">
                         <div class="article-avatar">
                             <router-link to="/app/my">
-                                <img :src="baseURL + item.user.avatar" alt="" height="46" width="46">
+                                <img :src="item.user.avatar" alt="" height="46" width="46">
                             </router-link>
                         </div>
                         <div class="article-author">

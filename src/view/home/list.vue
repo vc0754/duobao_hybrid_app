@@ -10,9 +10,9 @@
             
             <ul class="vc-list-container">
                 <li v-for="(item, i) in items" :key="i">
-                    <div class="thumb">
+                    <div class="thumb" :style="{backgroundImage:'url(' + item.thumbnail + ')'}">
                         <router-link :to="'/article/' + item.id">
-                            <img :src="baseURL + item.thumbnail" alt="" />
+                            <img :src="item.thumbnail" alt="" />
                         </router-link>
                     </div>
                     <div class="info">
@@ -90,10 +90,13 @@ export default {
         display:flex;
         
         .thumb {
+            background-size: cover;
+            background-position: center;
             background-color:#eee; width:30%; margin-right:5%; overflow:hidden;
             flex-shrink:0;
 
             img {
+                visibility: hidden;
                 display:block; max-width:100%;
             }
         }

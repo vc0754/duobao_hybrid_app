@@ -10,7 +10,7 @@
             
             <swiper :options="swiperOption" v-if="swiperSlides.length">
                 <swiper-slide v-for="(slide, index) in swiperSlides" :key="index">
-                    <img :src="baseURL + slide.thumbnail">
+                    <img :src="slide.thumbnail">
                     <div class="content-layout">
                         <h3>{{ slide.title }}</h3>
                         <span>{{ slide.subtitle }}</span>

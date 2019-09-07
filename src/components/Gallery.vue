@@ -1,12 +1,12 @@
 <template>
 <div class="gallery" v-if="items.length">
     <div class="image">
-        <img :src="baseURL + image">
+        <img :src="image">
     </div>
     <div class="thumbnail">
         <ul>
             <li v-for="(item, index) in items" :key="index">
-                <img :src="baseURL + item" @click="showImage(index)">
+                <img :src="item" @click="showImage(index)">
             </li>
         </ul>
     </div>

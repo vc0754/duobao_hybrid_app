@@ -1,0 +1,35 @@
+[
+    {
+        "user": {
+            "name": "寻找超强BUY",
+            "avatar": "/static/images/head2.jpg"
+        },
+        "id": 199,
+        "title": "春季配饰百搭小技巧",
+        "excerpt": "每个人的购物习惯不尽相同，因而在购置单品的时候常常会踌躇，有人觉得单品很好搭也很耐用。",
+        "thumbnail": "/static/images/gallery1.jpg",
+        "gallery": [
+            "/static/images/gallery1.jpg",
+            "/static/images/gallery2.jpg",
+            "/static/images/gallery3.jpg",
+            "/static/images/gallery1.jpg"
+        ],
+        "date": "2017-03-21 星期三",
+        "favorite": 86,
+        "comments": 13
+    },
+    {
+        "user": {
+            "name": "寻找超强BUY",
+            "avatar": "/static/images/head2.jpg"
+        },
+        "id": 200,
+        "title": "春季配饰百搭小技巧",
+        "excerpt": "每个人的购物习惯不尽相同，因而在购置单品的时候常常会踌躇，有人觉得单品很好搭也很耐用。",
+        "thumbnail": "/static/images/gallery1.jpg",
+        "gallery": [],
+        "date": "2017-03-21 星期三",
+        "favorite": 86,
+        "comments": 13
+    }
+]
