@@ -1,5 +1,14 @@
 # duobao_hybrid_app
 
+# 朵宝
+
+专注于现代女性配饰搭配展示与推荐的一款APP
+
+Designer: 牙龈出血
+Developer: VC
+
+Description：该套文件使用 Vue Cli 3 工程创建，配合 Mock 数据模拟进行展示，使用到 Vue-Router，Vuex，Axios 等一系列组件。
+
 ## Project setup
 ```
 npm install
